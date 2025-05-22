@@ -94,7 +94,7 @@ def draw_drone_3d(frame_size_mm, propeller_diameter_inches, num_arms=4, payload=
 st.title("Drone Design Assistant")
 st.write("Answer a few questions and get recommendations for building your drone:")
 
-mission_type = st.selectbox("Mission Type:", ["Recreational", "Photography/Videography", "Delivery", "Inspection", "Other"])
+mission_type = st.selectbox("Mission Type:", ["Photography/Videography", "Delivery", "Inspection", "Military", "Other"])
 payload_weight_grams = st.number_input("Payload Weight (grams):", min_value=0, value=500)
 desired_flight_time_minutes = st.number_input("Desired Flight Time (minutes):", min_value=1, value=10)
 frame_size_mm = st.number_input("Frame Size (in mm):", min_value=100, value=450)
