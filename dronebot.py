@@ -98,7 +98,7 @@ mission_type = st.selectbox("Mission Type:", ["Photography/Videography", "Delive
 payload_weight_grams = st.number_input("Payload Weight (grams):", min_value=0, value=0)
 desired_flight_time_minutes = st.number_input("Desired Flight Time (minutes):", min_value=0, value=0)
 frame_size_mm = st.number_input("Frame Size (in mm):", min_value=0, value=0)
-propeller_diameter_inches = st.number_input("Propeller Diameter (inches):", min_value=0, value=0.0, step=0.1)
+propeller_diameter_inches = st.number_input("Propeller Diameter (inches):", min_value=0.0, value=0.0, step=0.1)
 
 if st.button("Get Drone Design Recommendation"):
     st.subheader("Recommendations")
