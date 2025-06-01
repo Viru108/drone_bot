@@ -129,4 +129,4 @@ if st.button("Resources"):
     - 🔗 [GetFPV Learning Center](https://www.getfpv.com/learn/) — education on motors, props, and batteries
     - 🔗 [Drone Nodes](https://www.dronenodes.com/) — tutorials and insights for drone developers
     - 🔗 [Flite Test](https://www.flitetest.com/) — practical drone building tutorials
-    """)
+    """) 
