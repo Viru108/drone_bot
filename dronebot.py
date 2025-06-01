@@ -121,14 +121,12 @@ if st.button("Get Drone Design Recommendation"):
     st.markdown("<br><br>**Note:** This is a simplified visual and estimation. Actual drone builds should consider detailed thrust-to-weight ratios, component compatibility, and real-world testing.", unsafe_allow_html=True)
 # --- Resources Button ---
 if st.button("Resources"):
-    st.subheader("🔗 Resources & Reference Websites")
+    st.subheader("Sources & References for Drone Design Recommendations")
     st.markdown("""
-- [GetFPV](https://www.getfpv.com) — Drone parts, kits, and guides
-- [RaceDayQuads](https://www.racedayquads.com) — Motors, props, and frames
-- [HobbyKing](https://www.hobbyking.com) — Affordable batteries and electronics
-- [Rotor Riot](https://www.rotorriot.com) — Premium FPV components
-- [Amazon - Drone Parts](https://www.amazon.com) — General components and kits
-- [DroneTrest](https://www.dronetrest.com) — Tutorials and part selection help
-
-**Note:** Component recommendations are based on typical drone design principles and specs used in the drone-building community.
-""")
+    - 🔗 [eCalc Drone Calculator](https://www.ecalc.ch/xcoptercalc.php) — for motor, propeller, and battery matching
+    - 🔗 [Oscar Liang’s Blog](https://oscarliang.com/) — expert articles on drone components
+    - 🔗 [RotorBuilds](https://rotorbuilds.com/) — real-world quadcopter build examples
+    - 🔗 [GetFPV Learning Center](https://www.getfpv.com/learn/) — education on motors, props, and batteries
+    - 🔗 [Drone Nodes](https://www.dronenodes.com/) — tutorials and insights for drone developers
+    - 🔗 [Flite Test](https://www.flitetest.com/) — practical drone building tutorials
+    """)
