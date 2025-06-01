@@ -119,3 +119,16 @@ if st.button("Get Drone Design Recommendation"):
     draw_drone_3d(recommended_frame_size, recommended_prop, num_recommended_arms, payload=True)
 
     st.markdown("<br><br>**Note:** This is a simplified visual and estimation. Actual drone builds should consider detailed thrust-to-weight ratios, component compatibility, and real-world testing.", unsafe_allow_html=True)
+# --- Resources Button ---
+if st.button("Resources"):
+    st.subheader("🔗 Resources & Reference Websites")
+    st.markdown("""
+- [GetFPV](https://www.getfpv.com) — Drone parts, kits, and guides
+- [RaceDayQuads](https://www.racedayquads.com) — Motors, props, and frames
+- [HobbyKing](https://www.hobbyking.com) — Affordable batteries and electronics
+- [Rotor Riot](https://www.rotorriot.com) — Premium FPV components
+- [Amazon - Drone Parts](https://www.amazon.com) — General components and kits
+- [DroneTrest](https://www.dronetrest.com) — Tutorials and part selection help
+
+**Note:** Component recommendations are based on typical drone design principles and specs used in the drone-building community.
+""")
