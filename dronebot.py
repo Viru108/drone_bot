@@ -119,14 +119,4 @@ if st.button("Get Drone Design Recommendation"):
     draw_drone_3d(recommended_frame_size, recommended_prop, num_recommended_arms, payload=True)
 
     st.markdown("<br><br>**Note:** This is a simplified visual and estimation. Actual drone builds should consider detailed thrust-to-weight ratios, component compatibility, and real-world testing.", unsafe_allow_html=True)
-# --- Resources Button ---
-if st.button("Resources"):
-    st.subheader("Sources & References for Drone Design Recommendations")
-    st.markdown("""
-    - 🔗 [eCalc Drone Calculator](https://www.ecalc.ch/xcoptercalc.php) — for motor, propeller, and battery matching
-    - 🔗 [Oscar Liang’s Blog](https://oscarliang.com/) — expert articles on drone components
-    - 🔗 [RotorBuilds](https://rotorbuilds.com/) — real-world quadcopter build examples
-    - 🔗 [GetFPV Learning Center](https://www.getfpv.com/learn/) — education on motors, props, and batteries
-    - 🔗 [Drone Nodes](https://www.dronenodes.com/) — tutorials and insights for drone developers
-    - 🔗 [Flite Test](https://www.flitetest.com/) — practical drone building tutorials
-    """) 
+
